@@ -1,206 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services — Omanyi Media</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/services.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Conversion-focused websites for small businesses. Built mobile-first to bring you more calls, more trust, and a stronger online presence — without the agency price tag." />
+  <meta name="theme-color" content="#0B1620" />
+  <title>Services — Omanyi.Media</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230B1620'/><text x='16' y='22' font-family='serif' font-size='20' font-weight='700' text-anchor='middle' fill='%236BA292'>O</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/pages/services.css" />
 </head>
 <body>
 
-<nav class="navbar">
-  <a href="index.html" class="nav-logo">Omanyi<span>.</span>Media</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="services.html" class="active">Services</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="landing.html" class="nav-cta">Get a Free Quote</a></li>
-  </ul>
-</nav>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-<div class="page-hero">
-  <div class="section-label">What We Offer</div>
-  <h1>Two Services. One Mission:<br><em style="font-style:italic;color:var(--teal)">Your Growth.</em></h1>
-  <p>Professional websites and video production built exclusively for small businesses — strategic, affordable, and delivered fast.</p>
-</div>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Omanyi.Media — Home">Omanyi<span>.</span>Media</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-menu" class="nav-menu" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="is-active">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#book" class="nav-cta">Book a Free Call</a>
+      </nav>
+    </div>
+  </header>
 
-<!-- SERVICE 1: WEBSITE BUILDING -->
-<section class="section">
-  <div class="service-block">
-    <div class="service-visual">
-      <div class="sv-big-num">01</div>
-      <img src="images/services1.jpg" alt="Website design shown on a laptop screen" class="service-main-img">
-      <div class="sv-badge-row">
-        <div class="sv-badge dark">Mobile-First Design</div>
-        <div class="sv-badge dark">SEO Optimized</div>
-        <div class="sv-badge dark">30-Day Delivery</div>
-      </div>
-    </div>
-    <div class="service-content">
-      <div class="section-label">Service 01</div>
-      <h2>Small Business<br>Website Package</h2>
-      <p>A fully custom, mobile-responsive website designed and built specifically for your small business. Every site is built with SEO, conversion, and your brand at its core.</p>
-      <p>We don't use page-builders or generic templates. Every site is hand-crafted to represent your business with professionalism and purpose.</p>
-      <ul class="feature-list">
-        <li>Up to 6 custom pages (Home, About, Services, Blog, Contact, Landing)</li>
-        <li>Mobile-first responsive design for all devices</li>
-        <li>On-page SEO optimization from day one</li>
-        <li>Contact form and Google Maps integration</li>
-        <li>Social media links and icon setup</li>
-        <li>Google Analytics setup and basic dashboard</li>
-        <li>30-day post-launch support included</li>
-      </ul>
-      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;">
-        <a href="landing.html" class="btn-primary">Get a Website Quote →</a>
-        <a href="contact.html" class="btn-outline">Ask a Question</a>
-      </div>
-    </div>
-  </div>
+  <main id="main">
 
-  <!-- Pricing -->
-  <div style="margin-top:4rem;">
-    <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;margin-bottom:0.5rem;">Website Pricing</h3>
-    <p style="color:var(--ink-soft);font-size:0.9rem;margin-bottom:0;">All prices in CAD. Includes everything listed above for the relevant tier.</p>
-    <div class="pricing-grid">
-      <div class="price-card">
-        <div class="price-tier">Starter</div>
-        <div class="price-amount">$1,200</div>
-        <div class="price-note">Up to 3 pages</div>
-        <p class="price-desc">Perfect for brand-new businesses needing a clean, professional home on the web fast.</p>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow reveal">What we do</span>
+        <h1 class="reveal" data-delay="1">One thing, done properly: <em>websites that bring you customers.</em></h1>
+        <p class="lede reveal" data-delay="2">
+          We build mobile-first websites for small businesses across Canada and the US — designed to bring you more calls, more trust, and a stronger presence online. Every project is scoped on a free strategy call.
+        </p>
       </div>
-      <div class="price-card featured">
-        <div class="price-tier">★ Most Popular</div>
-        <div class="price-amount">$2,200</div>
-        <div class="price-note">Up to 6 pages</div>
-        <p class="price-desc">The complete small business website — full pages, blog, landing page, and all integrations.</p>
-      </div>
-      <div class="price-card">
-        <div class="price-tier">Premium</div>
-        <div class="price-amount">$3,500</div>
-        <div class="price-note">Custom e-commerce</div>
-        <p class="price-desc">For businesses ready to sell online — full e-commerce, product pages, and payment integration.</p>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Case Study -->
-  <div class="case-study">
-    <div>
-      <div class="case-tag">Success Story</div>
-      <div class="case-title">Bloom Florals — Hamilton, ON</div>
-      <p class="case-body">Bloom Florals came to Omanyi Media with no website and a Facebook page as their only digital presence. After launching their Growth Package website, their business transformed within 60 days. They now rank on the first page of Google for "flower delivery Hamilton" and online revenue has exceeded in-store revenue for the first time in the shop's history.</p>
-    </div>
-    <div class="case-stats">
-      <div class="case-stat"><div class="case-stat-num">+312%</div><div class="case-stat-lbl">More Inquiries</div></div>
-      <div class="case-stat"><div class="case-stat-num">Pg.1</div><div class="case-stat-lbl">Google Ranking</div></div>
-    </div>
-  </div>
-</section>
+    <!-- OFFER OVERVIEW -->
+    <section class="section">
+      <div class="wrap">
+        <div class="offer">
+          <div class="offer-copy reveal">
+            <span class="eyebrow">The core service</span>
+            <h2 style="margin-top:1rem;">A small-business website, built like it matters.</h2>
+            <p class="lede">
+              Every site we build is custom-designed, hand-coded for speed, and shipped with the SEO foundations already in place. No templates, no page-builder bloat, no monthly retainer trap.
+            </p>
+            <div class="offer-actions">
+              <a href="#how-it-works" class="btn btn-primary">How It Works <span class="arrow">↓</span></a>
+              <a href="contact.html#book" class="btn btn-secondary">Book a Free Call</a>
+            </div>
+          </div>
 
-<!-- SERVICE 2: VIDEO PRODUCTION -->
-<section class="section section-alt">
-  <div class="service-block reverse">
-    <div class="service-visual teal-bg">
-      <img src="images/services2.jpg" alt="Video production setup" class="service-main-img">
-      
-      <div class="sv-badge-row">
-        <div class="sv-badge">Brand Videos</div>
-        <div class="sv-badge">Testimonials</div>
-        <div class="sv-badge">Social Reels</div>
+          <div class="offer-card reveal" data-delay="1">
+            <span class="label">Everything's included</span>
+            <h3>What you get with every site</h3>
+            <ul class="includes-list">
+              <li>A custom design — never a template, never a theme</li>
+              <li>Looks great on every phone, tablet, and laptop</li>
+              <li>Set up to show up in local Google searches</li>
+              <li>Connected to your Google Business Profile &amp; Maps</li>
+              <li>Contact form that doesn't get buried in spam</li>
+              <li>Loads in under 2 seconds — fast feels trustworthy</li>
+              <li>Simple tracking so you know what's working</li>
+              <li>30 minutes of post-launch training, walked through with you</li>
+              <li>30 days of free tweaks after we go live</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="service-content">
-      <div class="section-label">Service 02</div>
-      <h2>Business Video<br>Production Package</h2>
-      <p>Professional video content produced specifically for small business marketing — from full brand films to social media reels. Every production is purpose-built to tell your story and convert viewers into customers.</p>
-      <p>We handle everything: scripting, storyboarding, filming, editing, motion graphics, and delivery in all formats you need.</p>
-      <ul class="feature-list">
-        <li>Pre-production: creative brief, scripting, and storyboarding</li>
-        <li>Professional filming — on-site (Toronto area) or remote guidance</li>
-        <li>Professional lighting and audio equipment</li>
-        <li>Post-production: editing, motion graphics, and licensed music</li>
-        <li>Brand overlays, lower-thirds, and CTA end screens</li>
-        <li>Delivery in web-optimized MP4 format for website and social</li>
-      </ul>
-      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;">
-        <a href="landing.html" class="btn-primary">Book a Video Session →</a>
-        <a href="contact.html" class="btn-outline">Ask a Question</a>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Pricing -->
-  <div style="margin-top:4rem;">
-    <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;margin-bottom:0.5rem;">Video Pricing</h3>
-    <p style="color:var(--ink-soft);font-size:0.9rem;">All prices in CAD. Each package includes scripting, filming, editing, and delivery.</p>
-    <div class="pricing-grid">
-      <div class="price-card">
-        <div class="price-tier">Brand Video</div>
-        <div class="price-amount">$900</div>
-        <div class="price-note">60–90 seconds</div>
-        <p class="price-desc">Your company's story told compellingly — perfect for homepages and social media profiles.</p>
-      </div>
-      <div class="price-card featured">
-        <div class="price-tier">★ Best Value</div>
-        <div class="price-amount">$750</div>
-        <div class="price-note">Testimonial 3-pack</div>
-        <p class="price-desc">Three professional client testimonial videos — the most trusted form of social proof available.</p>
-      </div>
-      <div class="price-card">
-        <div class="price-tier">Social Reels</div>
-        <div class="price-amount">$500</div>
-        <div class="price-note">5-reel pack</div>
-        <p class="price-desc">Five short-form reels optimized for Instagram, TikTok, and LinkedIn to fuel your social presence.</p>
-      </div>
-    </div>
-  </div>
+    <!-- HOW IT WORKS -->
+    <section class="how section" id="how-it-works">
+      <div class="wrap">
+        <div class="how-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>Three simple steps to a website that actually helps your business grow.</h2>
+          <p class="lede">
+            A simple process focused on getting small businesses online quickly, looking more professional, and turning more visitors into paying customers.
+          </p>
+        </div>
 
-  <!-- Case Study -->
-  <div class="case-study">
-    <div>
-      <div class="case-tag">Success Story</div>
-      <div class="case-title">DeltaFit Training — Mississauga, ON</div>
-      <p class="case-body">DeltaFit Training wanted to attract premium clients and differentiate from big-box gyms. Omanyi Media produced a 90-second brand video and five social media reels. The brand video became their single most effective sales tool — new clients consistently cite watching it as the moment they decided to book. Their Instagram following grew by 40% in the first 30 days following the reel release.</p>
-    </div>
-    <div class="case-stats">
-      <div class="case-stat"><div class="case-stat-num">+40%</div><div class="case-stat-lbl">Instagram Growth</div></div>
-      <div class="case-stat"><div class="case-stat-num">3</div><div class="case-stat-lbl">New Premium Clients</div></div>
-    </div>
-  </div>
-</section>
+        <div class="how-grid">
 
-<!-- CTA BAND -->
-<section class="cta-band">
-  <h2>Not Sure Which Service You Need?</h2>
-  <p>Book a free 30-minute consultation and we will help you figure out exactly what will move the needle for your business.</p>
-  <a href="landing.html" class="btn-white">Get My Free Consultation →</a>
-</section>
+          <article class="how-card reveal">
+            <span class="how-num">Step 01</span>
+            <h3>Book a Free Call</h3>
+            <p>
+              We start with a short strategy call to learn about your business, your goals, and what your current website is missing — or what to build if you don't have one yet.
+            </p>
+            <a href="contact.html#book" class="btn btn-secondary">Get a Quote <span class="arrow">→</span></a>
+          </article>
 
-<footer>
-  <div class="footer-grid">
-    <div>
-      <a href="index.html" class="footer-logo">Omanyi<span>.</span>Media</a>
-      <p class="footer-tagline">Professional websites and video content for small businesses across Canada and the United States.</p>
-      <div class="social-row">
-        <div class="social-btn">f</div><div class="social-btn">in</div>
-        <div class="social-btn">li</div><div class="social-btn">▶</div><div class="social-btn">𝕏</div>
+          <article class="how-card is-featured reveal" data-delay="1">
+            <span class="how-num">Step 02</span>
+            <h3>We Build Your Site</h3>
+            <p>
+              We design and build a modern, mobile-first website tailored to your business — built to look trustworthy, load fast, and turn visitors into customers.
+            </p>
+            <a href="contact.html#book" class="btn btn-light">Start This Project <span class="arrow">→</span></a>
+          </article>
+
+          <article class="how-card reveal" data-delay="2">
+            <span class="how-num">Step 03</span>
+            <h3>Launch &amp; Support</h3>
+            <p>
+              Once your website is live, we help with updates, improvements, and ongoing support as your business grows. You own everything — no platform lock-in.
+            </p>
+            <a href="contact.html#book" class="btn btn-secondary">Discuss Your Project <span class="arrow">→</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARE -->
+    <section class="compare section on-dark">
+      <div class="wrap">
+        <div class="compare-head reveal">
+          <span class="eyebrow">Why this instead of</span>
+          <h2 style="margin-top:1rem;">A small studio versus the alternatives.</h2>
+          <p class="lede" style="margin-top:1.25rem;">
+            We're a specific kind of better for a specific kind of business. Here's how working with us compares to going somewhere else.
+          </p>
+        </div>
+
+        <div class="compare-table reveal">
+          <div class="compare-row is-head">
+            <div></div>
+            <div>Omanyi.Media</div>
+            <div>Big agency / page-builder</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell label">Who actually builds it</div>
+            <div class="compare-cell us">The founder. Same person on every call.</div>
+            <div class="compare-cell them">Junior designer / a template you assemble yourself</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell label">Real timeline</div>
+            <div class="compare-cell us">A few weeks from kickoff to live site</div>
+            <div class="compare-cell them">3–9 months at agencies, or weekends of your time</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell label">How we quote</div>
+            <div class="compare-cell us">One agreed scope &amp; price before kickoff — no surprise bills</div>
+            <div class="compare-cell them">Hourly billing + scope creep, or $30/mo forever</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell label">Ownership</div>
+            <div class="compare-cell us">You own everything — domain, hosting, code, content</div>
+            <div class="compare-cell them">Locked into their platform, exit costs you</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell label">Built for leads</div>
+            <div class="compare-cell us">Conversion-first design, real SEO setup, clear CTAs</div>
+            <div class="compare-cell them">Pretty homepage, weak structure, generic everything</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMON QUESTIONS -->
+    <section class="section">
+      <div class="wrap">
+        <div class="questions-head reveal">
+          <span class="eyebrow">Common questions</span>
+          <h2>Everything you need to know.</h2>
+        </div>
+
+        <div class="questions-list reveal">
+          <ul class="faq-list" role="list">
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How does the process start?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  It starts with a free 30-minute call. You tell us about your business and what you want a new website to do for you. There's no obligation, no pressure, and no sales pitch — if we're not the right fit, we'll say so honestly and point you somewhere better.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>What happens on the call?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  A real conversation. We look at your current site together (if you have one), talk about the customers you want to reach, and discuss what would actually move the needle. By the end of the call, you'll have a clear sense of what we'd build and roughly what it would cost.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How much does a website cost?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  We don't publish pricing because every business is different — a one-page site for a new bakery and a multi-page site for a contractor with a service area aren't the same project. After our free call, we'll send you a written quote within 48 hours with a single agreed price. No hourly billing, no surprise invoices.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How fast can a site go live?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Most small-business sites are live within 2–4 weeks of kickoff, depending on how quickly we can collect content and feedback from you. We agree on a timeline before we start, and we stick to it. No three-month agency runarounds.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>Can you improve my existing site, or do you rebuild from scratch?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Honestly, it depends on what's there. If your current site has a solid foundation, sometimes a focused refresh is all you need. If it's built on a clunky template or page-builder, rebuilding is usually faster and cheaper than untangling the old one. We'll tell you straight on the call.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How do you help me show up on Google?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Every site we build is set up properly from day one — the right page structure, clean code, mobile-friendly layout, and your Google Business Profile connected. That gives you a real chance of showing up when local customers search for what you do. SEO isn't magic, but a properly-built site is the foundation everything else stands on.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>What kinds of businesses do you work with?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Small, owner-run businesses — contractors, cafes, clinics, salons, trades, professional services, local shops. If you're a real person trying to bring in real customers from your local area, we're probably a good fit. If you're a large enterprise or a venture-backed startup, we're probably not.
+                </div>
+              </div>
+            </li>
+
+            <li class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How do you turn website traffic into leads?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Three things, in plain terms: clear messaging that tells visitors what you do and why they should care; obvious next steps on every page (call, book, message); and a site that loads fast and looks trustworthy on the phone. None of that is fancy — it just gets done properly, which most sites don't.
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-final on-dark section">
+      <div class="wrap">
+        <span class="eyebrow reveal">Ready to start</span>
+        <h2 class="reveal" data-delay="1" style="margin-top:1rem;">Get a real quote on a real call — not in a sales funnel.</h2>
+        <p class="lede reveal" data-delay="2">
+          Book a free 30-minute strategy session, or just send us an email. Either way, you'll get a written quote within 48 hours — no obligation.
+        </p>
+        <div class="actions reveal" data-delay="3" style="display:inline-flex;flex-wrap:wrap;gap:0.85rem;justify-content:center;">
+          <a href="contact.html#book" class="btn btn-primary">Book a Free Strategy Call <span class="arrow">→</span></a>
+          <a href="mailto:hello@omanyi.media" class="btn btn-secondary">Or Email Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="footer-brand">Omanyi<span>.</span>Media</a>
+          <p class="footer-tag">Conversion-focused websites for small businesses. Remote-first, based in Ontario, Canada.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Site</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Start</div>
+          <ul class="footer-list">
+            <li><a href="contact.html#book">Book a Free Call</a></li>
+            <li><a href="services.html">See What We'd Build</a></li>
+            <li><a href="services.html#how-it-works">How It Works</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-list">
+            <li><a href="mailto:hello@omanyi.media">hello@omanyi.media</a></li>
+            <li>Ontario, Canada</li>
+            <li>Remote-first · Online</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Omanyi.Media — All rights reserved.</span>
+        <span><a href="#main">Back to top ↑</a></span>
       </div>
     </div>
-    <div><div class="footer-col-title">Company</div>
-      <ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul>
-    </div>
-    <div><div class="footer-col-title">Services</div>
-      <ul class="footer-links"><li><a href="services.html">Website Building</a></li><li><a href="services.html">Video Production</a></li><li><a href="landing.html">Free Consultation</a></li></ul>
-    </div>
-    <div><div class="footer-col-title">Contact</div>
-      <ul class="footer-links"><li><a href="mailto:hello@omanyi.media">hello@omanyi.media</a></li><li><a href="tel:+14165550192">+1 (416) 555-0192</a></li><li><a href="#">200 Wellington St W, Toronto ON</a></li></ul>
-    </div>
-  </div>
-  <div class="footer-bottom"><span>© 2026 Omanyi Media. All rights reserved.</span><span>Toronto, Ontario · Canada</span></div>
-</footer>
-<div class="disclaimer-bar">The information provided on this website is intended for educational purposes only. While every effort has been made to ensure the accuracy and reliability of the content, the university does not guarantee its completeness or effectiveness. This website will be deactivated once the course is completed. Some images used on this site have been sourced from the internet and are included for educational and practice purposes only. If you are the copyright owner of any image and believe it has been used without proper attribution, please contact us, and we will make the necessary corrections. The views expressed on this site do not necessarily reflect the official policies or positions of the university. The university is not responsible for any errors or omissions or the results obtained from using this information. By using this website, you acknowledge and agree to these terms.</div>
-<script src="js/main.js"></script>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

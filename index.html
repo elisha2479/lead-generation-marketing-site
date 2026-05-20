@@ -1,217 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omanyi Media — Digital Media for Small Business</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Omanyi.Media builds conversion-focused websites for small businesses in Canada and the US. Sites that rank, load fast, and turn visitors into paying customers." />
+  <meta name="theme-color" content="#0B1620" />
+  <title>Omanyi.Media — Websites That Bring Small Businesses Real Customers</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230B1620'/><text x='16' y='22' font-family='serif' font-size='20' font-weight='700' text-anchor='middle' fill='%236BA292'>O</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/pages/home.css" />
 </head>
-
 <body>
- 
-<!-- NAV -->
-<nav class="navbar">
-  <a href="index.html" class="nav-logo">Omanyi<span>.</span>Media</a>
-  <ul class="nav-links">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="services.html">Services</a></li>
- 
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="landing.html" class="nav-cta">Get a Free Quote</a></li>
-  </ul>
-</nav>
- 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-left">
-    <div class="hero-eyebrow fade-up">Digital Media for Small Business</div>
-    <h1 class="fade-up delay-1">
-  Get a Website That Brings You<br>
-  Real Customers —<br>
-  <em>Not Just Views.</em>
-</h1>
-    <p class="hero-sub fade-up delay-2">
-  Omanyi Media builds professional websites and video content
-  that give small businesses the digital presence they deserve —
-  at prices that actually make sense.
-</p>
 
-<p class="urgency-note fade-up delay-2">
-  Most small businesses lose customers every day because their website does not build trust or show up when people search.
-</p>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-    <div class="hero-stats fade-up delay-4">
-  <div>
-    <div class="stat-num">Local</div>
-    <div class="stat-label">Small Business Focus</div>
-  </div>
-  <div>
-    <div class="stat-num">5 yrs</div>
-    <div class="stat-label">Creative Experience</div>
-  </div>
-  <div>
-    <div class="stat-num">Fast</div>
-    <div class="stat-label">Project Turnaround</div>
-  </div>
-</div>
-        <div class="stat-num">98%</div>
-        <div class="stat-label">Client Satisfaction</div>
+  <!-- ─────────── NAV ─────────── -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Omanyi.Media — Home">Omanyi<span>.</span>Media</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-menu" class="nav-menu" aria-label="Primary">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#book" class="nav-cta">Book a Free Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ─────────── HERO ─────────── -->
+    <section class="hero on-dark">
+      <div class="wrap hero-inner">
+
+        <div class="hero-copy">
+          <span class="eyebrow reveal">Web Design for Small Business</span>
+          <h1 class="reveal" data-delay="1">
+            Your website should be your best salesperson. <em>Right now, it's costing you customers.</em>
+          </h1>
+          <p class="hero-lede reveal" data-delay="2">
+            We build conversion-focused websites for small businesses across Canada and the US — sites that rank on Google, load fast, and turn visitors into booked calls.
+          </p>
+
+          <div class="hero-actions reveal" data-delay="3">
+            <a href="contact.html#book" class="btn btn-primary">Book a Free Strategy Call <span class="arrow">→</span></a>
+            <a href="services.html" class="btn btn-secondary">See What We'd Build For Your Business</a>
+          </div>
+
+          <div class="hero-trust reveal" data-delay="4">
+            <span class="hero-trust-item"><span class="dot"></span> Based in Ontario, Canada</span>
+            <span class="hero-trust-item"><span class="dot"></span> Remote-first, fully online</span>
+            <span class="hero-trust-item"><span class="dot"></span> No-pressure consultations</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="2">
+          <div class="mockup" role="img" aria-label="Example of a website design — a clean homepage for a small business">
+            <div class="mockup-bar">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="url">yourbusiness.com</span>
+            </div>
+            <!-- Realistic example homepage mockup (SVG) -->
+            <svg class="mockup-canvas" viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0B1620"/>
+                  <stop offset="100%" stop-color="#1B3142"/>
+                </linearGradient>
+              </defs>
+              <!-- Top nav -->
+              <rect width="800" height="48" fill="#FFFFFF"/>
+              <text x="32" y="30" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#0B1620">Northern Hearth</text>
+              <rect x="640" y="14" width="120" height="22" rx="11" fill="#4F8A77"/>
+              <text x="700" y="29" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Get a Quote</text>
+              <!-- Hero band -->
+              <rect y="48" width="800" height="288" fill="url(#hg)"/>
+              <text x="32" y="118" font-family="sans-serif" font-size="11" font-weight="500" fill="#8DBDAE" letter-spacing="2">PREMIUM FIREPLACES — ONTARIO</text>
+              <text x="32" y="166" font-family="Georgia, serif" font-size="34" font-weight="600" fill="#FFFFFF">Warmth that</text>
+              <text x="32" y="206" font-family="Georgia, serif" font-size="34" font-weight="600" font-style="italic" fill="#8DBDAE">lasts a lifetime.</text>
+              <text x="32" y="240" font-family="sans-serif" font-size="12" fill="#94A8B9">Custom installations across the GTA — booked in 48 hours.</text>
+              <rect x="32" y="262" width="148" height="36" rx="18" fill="#FFFFFF"/>
+              <text x="106" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#0B1620">Book a Site Visit →</text>
+              <rect x="190" y="262" width="120" height="36" rx="18" fill="transparent" stroke="#94A8B9" stroke-width="1"/>
+              <text x="250" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#FFFFFF">See Our Work</text>
+              <!-- Hero image block -->
+              <rect x="450" y="98" width="320" height="220" rx="14" fill="#3B6B5C" opacity="0.6"/>
+              <rect x="465" y="113" width="290" height="190" rx="10" fill="#243A50"/>
+              <circle cx="610" cy="208" r="34" fill="#6BA292" opacity="0.5"/>
+              <rect x="490" y="270" width="120" height="6" rx="3" fill="#8DBDAE"/>
+              <rect x="490" y="282" width="80" height="4" rx="2" fill="#5C7388"/>
+              <!-- Service strip -->
+              <rect y="336" width="800" height="116" fill="#FAF8F2"/>
+              <rect x="50" y="358" width="36" height="36" rx="8" fill="#EAF2EE"/>
+              <rect x="58" y="368" width="20" height="2" fill="#3B6B5C"/>
+              <rect x="58" y="374" width="14" height="2" fill="#3B6B5C"/>
+              <rect x="58" y="380" width="18" height="2" fill="#3B6B5C"/>
+              <text x="98" y="372" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#0B1620">Custom Design</text>
+              <text x="98" y="390" font-family="sans-serif" font-size="10" fill="#4B5C6E">Tailored to your space.</text>
+              <rect x="276" y="358" width="36" height="36" rx="8" fill="#EAF2EE"/>
+              <circle cx="294" cy="376" r="8" stroke="#3B6B5C" stroke-width="2" fill="none"/>
+              <text x="324" y="372" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#0B1620">Local Install</text>
+              <text x="324" y="390" font-family="sans-serif" font-size="10" fill="#4B5C6E">GTA-wide service.</text>
+              <rect x="502" y="358" width="36" height="36" rx="8" fill="#EAF2EE"/>
+              <path d="M514 380 l6 -6 l8 8 l8 -10" stroke="#3B6B5C" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <text x="550" y="372" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#0B1620">5-Year Warranty</text>
+              <text x="550" y="390" font-family="sans-serif" font-size="10" fill="#4B5C6E">On every install.</text>
+              <!-- Footer band -->
+              <rect y="452" width="800" height="98" fill="#0B1620"/>
+              <text x="32" y="490" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#FFFFFF">Northern Hearth</text>
+              <text x="32" y="510" font-family="sans-serif" font-size="10" fill="#94A8B9">© 2026 · Peterborough, ON</text>
+              <rect x="600" y="478" width="160" height="34" rx="17" fill="#4F8A77"/>
+              <text x="680" y="500" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Book a Free Estimate →</text>
+            </svg>
+          </div>
+          <div class="mockup-tag"><span class="pulse"></span> Example design — what we'd build for you</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─────────── TRUST STRIP ─────────── -->
+    <div class="strip">
+      <div class="wrap strip-inner">
+        <span class="strip-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          Mobile-first design
+        </span>
+        <span class="strip-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          SEO from day one
+        </span>
+        <span class="strip-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          Built to convert
+        </span>
+        <span class="strip-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          Fast page loads
+        </span>
+        <span class="strip-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          No surprise bills
+        </span>
       </div>
     </div>
-  </div>
- 
-  <div class="hero-right">
-    <div class="floating-badge badge-2">🏆 100+ Clients Served</div>
-    <div class="hero-card-stack">
-      <div class="hcard hcard-b2"></div>
-      <div class="hcard hcard-b1"></div>
-      <div class="hcard hcard-main">
-        <div class="hcard-icon">🌐</div>
-        <div class="hcard-title">Website Launch Complete</div>
-        <div class="hcard-sub">Bloom Florals — New Site Live</div>
-        <div class="hcard-bar"><div class="hcard-bar-fill"></div></div>
-        <div class="hcard-tag">✓ Delivered in 3 weeks</div>
+
+    <!-- ─────────── PAIN ─────────── -->
+    <section class="pain section">
+      <div class="wrap">
+        <div class="pain-head reveal">
+          <span class="eyebrow">Sound familiar?</span>
+          <h2>If your website looks dated, doesn't show up on Google, or just sits there — you're losing customers every single day.</h2>
+        </div>
+
+        <div class="pain-grid">
+          <article class="pain-card reveal">
+            <span class="pain-num">01 / The dated look</span>
+            <h3>Your site looks like it was built a decade ago.</h3>
+            <p>Customers judge your business in under three seconds. A clunky, dated site tells them you're behind — even if your work is excellent.</p>
+          </article>
+          <article class="pain-card reveal" data-delay="1">
+            <span class="pain-num">02 / The Google problem</span>
+            <h3>People searching for your service can't find you.</h3>
+            <p>If you don't appear on page one of Google, you don't exist to most customers. They click your competitor instead.</p>
+          </article>
+          <article class="pain-card reveal" data-delay="2">
+            <span class="pain-num">03 / The trust gap</span>
+            <h3>Visitors land on your site — and leave without calling.</h3>
+            <p>No clear message. No proof of your work. No reason to pick up the phone. Every bounce is a lost lead.</p>
+          </article>
+          <article class="pain-card reveal" data-delay="3">
+            <span class="pain-num">04 / The mobile mess</span>
+            <h3>Your site is broken on phones, where most people now browse.</h3>
+            <p>Pinch-to-zoom. Tiny buttons. Forms that don't work. Over 60% of small-business traffic is mobile — and you're losing all of it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── PROMISE / WHAT WE BUILD ─────────── -->
+    <section class="section">
+      <div class="wrap">
+        <div class="promise-grid">
+          <div class="reveal">
+            <span class="eyebrow">What you actually get</span>
+            <h2 style="margin-top:1rem;">A website that does the work of a full-time salesperson — minus the salary.</h2>
+            <p class="lede" style="margin-top:1.25rem;">
+              We don't sell themes, templates, or page-builder slop. Every site is hand-built around one question: <em>what will make your ideal customer pick up the phone?</em>
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="services.html" class="btn btn-primary">See Our Approach <span class="arrow">→</span></a>
+            </div>
+          </div>
+
+          <div class="reveal" data-delay="1">
+            <div class="promise-feature">
+              <div class="ico">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4a4 4 0 0 0-4 4v2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2V8a4 4 0 0 0-4-4Z"/></svg>
+              </div>
+              <div>
+                <h4>Conversion-first design</h4>
+                <p>Clear messaging. Strong CTAs above the fold. Every page leads visitors toward the call you want them to make.</p>
+              </div>
+            </div>
+
+            <div class="promise-feature">
+              <div class="ico">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              </div>
+              <div>
+                <h4>A real local presence online</h4>
+                <p>Set up to show up when customers in your area search for what you do — on Google, on Maps, on their phones. So the people who need you can actually find you.</p>
+              </div>
+            </div>
+
+            <div class="promise-feature">
+              <div class="ico">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <div>
+                <h4>Fast, mobile-first build</h4>
+                <p>Hand-coded for speed — no bloated builders. Loads under 2 seconds. Looks great on the phone in your customer's hand.</p>
+              </div>
+            </div>
+
+            <div class="promise-feature">
+              <div class="ico">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <h4>A site that earns trust</h4>
+                <p>Clean design, fast load, clear messaging, and visible proof — the things that make a stranger feel comfortable enough to actually call you. No surprise bills, no scope creep on our end either.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── PROCESS ─────────── -->
+    <section class="process section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>Three simple steps to a website that actually helps your business grow.</h2>
+          <p class="lede" style="margin-top:1.25rem;">From the first call to a live, lead-generating site — in weeks, not months.</p>
+        </div>
+
+        <div class="process-list">
+          <div class="process-step reveal">
+            <span class="step-num">01</span>
+            <h3>Free Strategy Call</h3>
+            <p>A 30-minute conversation about your business, your customers, and what's not working on your current site. No slides. No pressure. You'll leave with at least three things you can fix yourself, even if you never hire us.</p>
+          </div>
+          <div class="process-step reveal" data-delay="1">
+            <span class="step-num">02</span>
+            <h3>Design &amp; Build</h3>
+            <p>We design the site, you approve it, we build it. You get one main revision round and direct access to us throughout — no agency middlemen, no "we'll get back to you next week."</p>
+          </div>
+          <div class="process-step reveal" data-delay="2">
+            <span class="step-num">03</span>
+            <h3>Launch &amp; Grow</h3>
+            <p>We launch the site, set up simple tracking so you can see what's working, and walk you through how to use it. You start getting leads. We're available for 30 days post-launch for any tweaks at no extra cost.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── WORK / EXAMPLE DESIGNS ─────────── -->
+    <section class="section is-cream" id="work">
+      <div class="wrap">
+        <div class="work-head reveal">
+          <div>
+            <span class="eyebrow">Example designs</span>
+            <h2 style="margin-top:1rem;">What we'd build for businesses like yours.</h2>
+          </div>
+          <p class="lede" style="max-width:340px;">
+            These are sample designs showing the kind of work we produce — not past clients. Real work goes here as we ship it.
+          </p>
+        </div>
+
+        <div class="work-grid">
+
+          <!-- Mockup 1: Local services / contractor -->
+          <article class="work-card reveal">
+            <div class="work-canvas">
+              <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" aria-label="Example homepage for a local contracting business">
+                <rect width="800" height="500" fill="#FAF8F2"/>
+                <rect width="800" height="60" fill="#FFFFFF"/>
+                <text x="40" y="38" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#0B1620">Cedar &amp; Stone Co.</text>
+                <rect x="640" y="18" width="120" height="26" rx="13" fill="#0B1620"/>
+                <text x="700" y="35" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Free Quote →</text>
+                <rect y="60" width="800" height="280" fill="#243A50"/>
+                <text x="40" y="130" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#8DBDAE">RENOVATIONS · PETERBOROUGH</text>
+                <text x="40" y="178" font-family="Georgia, serif" font-size="36" font-weight="600" fill="#FFFFFF">Built right.</text>
+                <text x="40" y="220" font-family="Georgia, serif" font-size="36" font-weight="600" font-style="italic" fill="#8DBDAE">The first time.</text>
+                <text x="40" y="252" font-family="sans-serif" font-size="12" fill="#94A8B9">Custom kitchens, bathrooms, and additions across</text>
+                <text x="40" y="270" font-family="sans-serif" font-size="12" fill="#94A8B9">the Kawarthas. Licensed &amp; insured.</text>
+                <rect x="40" y="285" width="150" height="36" rx="18" fill="#FFFFFF"/>
+                <text x="115" y="308" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#0B1620">Get a Free Estimate →</text>
+                <rect x="490" y="90" width="280" height="220" rx="12" fill="#3B6B5C"/>
+                <rect x="510" y="110" width="240" height="180" rx="8" fill="#4F8A77"/>
+                <path d="M530 250 L580 200 L630 230 L680 180 L730 220 L730 290 L530 290 Z" fill="#6BA292"/>
+                <path d="M540 290 L590 220 L640 260 L690 200 L740 250 L740 290 Z" fill="#8DBDAE"/>
+                <rect y="340" width="800" height="160" fill="#FAF8F2"/>
+                <rect x="40" y="365" width="220" height="115" rx="10" fill="#FFFFFF" stroke="#E4DED1"/>
+                <rect x="60" y="385" width="40" height="40" rx="20" fill="#EAF2EE"/>
+                <rect x="60" y="438" width="100" height="6" fill="#0B1620"/>
+                <rect x="60" y="450" width="160" height="4" fill="#7A8A9B"/>
+                <rect x="60" y="460" width="140" height="4" fill="#7A8A9B"/>
+                <rect x="290" y="365" width="220" height="115" rx="10" fill="#FFFFFF" stroke="#E4DED1"/>
+                <rect x="310" y="385" width="40" height="40" rx="20" fill="#EAF2EE"/>
+                <rect x="310" y="438" width="100" height="6" fill="#0B1620"/>
+                <rect x="310" y="450" width="160" height="4" fill="#7A8A9B"/>
+                <rect x="310" y="460" width="140" height="4" fill="#7A8A9B"/>
+                <rect x="540" y="365" width="220" height="115" rx="10" fill="#FFFFFF" stroke="#E4DED1"/>
+                <rect x="560" y="385" width="40" height="40" rx="20" fill="#EAF2EE"/>
+                <rect x="560" y="438" width="100" height="6" fill="#0B1620"/>
+                <rect x="560" y="450" width="160" height="4" fill="#7A8A9B"/>
+                <rect x="560" y="460" width="140" height="4" fill="#7A8A9B"/>
+              </svg>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Concept · Local Contractor</span>
+              <h3>Cedar &amp; Stone Co.</h3>
+              <p>Quote-focused homepage built around a service area, a clear offer, and a single primary CTA. Designed for trades businesses where every visit has high intent.</p>
+            </div>
+          </article>
+
+          <!-- Mockup 2: Boutique / consumer -->
+          <article class="work-card reveal" data-delay="1">
+            <div class="work-canvas">
+              <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" aria-label="Example homepage for a boutique cafe">
+                <rect width="800" height="500" fill="#F6F3EC"/>
+                <rect width="800" height="56" fill="#F6F3EC"/>
+                <text x="40" y="35" font-family="Georgia, serif" font-size="16" font-style="italic" font-weight="600" fill="#0B1620">Maple &amp; Moss</text>
+                <text x="550" y="36" font-family="sans-serif" font-size="11" font-weight="500" fill="#0B1620">Menu</text>
+                <text x="605" y="36" font-family="sans-serif" font-size="11" font-weight="500" fill="#0B1620">Visit</text>
+                <text x="650" y="36" font-family="sans-serif" font-size="11" font-weight="500" fill="#0B1620">Order</text>
+                <rect x="690" y="18" width="80" height="24" rx="12" fill="#3B6B5C"/>
+                <text x="730" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Book</text>
+                <rect y="56" width="800" height="300" fill="#F6F3EC"/>
+                <rect x="40" y="86" width="350" height="240" rx="12" fill="#3B6B5C"/>
+                <circle cx="215" cy="206" r="60" fill="#6BA292" opacity="0.6"/>
+                <circle cx="215" cy="206" r="35" fill="#8DBDAE" opacity="0.8"/>
+                <text x="420" y="156" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#3B6B5C">SLOW COFFEE — PETERBOROUGH</text>
+                <text x="420" y="206" font-family="Georgia, serif" font-size="36" font-weight="600" fill="#0B1620">Made by hand.</text>
+                <text x="420" y="246" font-family="Georgia, serif" font-size="36" font-style="italic" font-weight="500" fill="#3B6B5C">Served slowly.</text>
+                <text x="420" y="280" font-family="sans-serif" font-size="12" fill="#4B5C6E">Single-origin beans. Local bakes. A quiet</text>
+                <text x="420" y="296" font-family="sans-serif" font-size="12" fill="#4B5C6E">corner of George Street since 2023.</text>
+                <rect x="420" y="312" width="120" height="32" rx="16" fill="#0B1620"/>
+                <text x="480" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Visit Us →</text>
+                <rect x="550" y="312" width="120" height="32" rx="16" fill="transparent" stroke="#0B1620"/>
+                <text x="610" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="500" fill="#0B1620">See the Menu</text>
+                <rect y="356" width="800" height="144" fill="#FFFFFF"/>
+                <text x="40" y="390" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#3B6B5C">THIS WEEK</text>
+                <text x="40" y="420" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#0B1620">Open Mic Friday · 7pm</text>
+                <text x="40" y="442" font-family="sans-serif" font-size="11" fill="#4B5C6E">Free entry. Bring a friend.</text>
+                <rect x="500" y="380" width="120" height="100" rx="10" fill="#EAF2EE"/>
+                <rect x="640" y="380" width="120" height="100" rx="10" fill="#F6F3EC" stroke="#E4DED1"/>
+              </svg>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Concept · Cafe / Boutique</span>
+              <h3>Maple &amp; Moss</h3>
+              <p>Warm, editorial-style site for a foot-traffic business — designed around location, atmosphere, and the small repeat moments that turn visitors into regulars.</p>
+            </div>
+          </article>
+
+          <!-- Mockup 3: Professional service -->
+          <article class="work-card reveal" data-delay="2">
+            <div class="work-canvas">
+              <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" aria-label="Example homepage for a law or accounting firm">
+                <rect width="800" height="500" fill="#0B1620"/>
+                <rect width="800" height="60" fill="#0B1620"/>
+                <text x="40" y="38" font-family="Georgia, serif" font-size="16" font-weight="600" fill="#FFFFFF">Wexler Law</text>
+                <text x="550" y="38" font-family="sans-serif" font-size="11" fill="#94A8B9">Practice</text>
+                <text x="615" y="38" font-family="sans-serif" font-size="11" fill="#94A8B9">Team</text>
+                <text x="660" y="38" font-family="sans-serif" font-size="11" fill="#94A8B9">Notes</text>
+                <rect x="700" y="18" width="80" height="24" rx="12" fill="#6BA292"/>
+                <text x="740" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="600" fill="#0B1620">Consult</text>
+                <text x="40" y="160" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#8DBDAE">FAMILY &amp; ESTATE LAW · KAWARTHA REGION</text>
+                <text x="40" y="220" font-family="Georgia, serif" font-size="44" font-weight="500" fill="#FFFFFF">Plain answers.</text>
+                <text x="40" y="270" font-family="Georgia, serif" font-size="44" font-style="italic" font-weight="500" fill="#8DBDAE">Honest counsel.</text>
+                <text x="40" y="310" font-family="sans-serif" font-size="13" fill="#94A8B9">No-fee initial consultation. We'll tell you</text>
+                <text x="40" y="328" font-family="sans-serif" font-size="13" fill="#94A8B9">whether you even need a lawyer.</text>
+                <rect x="40" y="350" width="170" height="38" rx="19" fill="#FFFFFF"/>
+                <text x="125" y="374" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#0B1620">Book a Consultation →</text>
+                <rect x="500" y="120" width="260" height="260" rx="14" fill="#182B3D"/>
+                <text x="520" y="156" font-family="sans-serif" font-size="9" letter-spacing="2" fill="#8DBDAE">PRACTICE AREAS</text>
+                <line x1="520" y1="175" x2="740" y2="175" stroke="#243A50"/>
+                <text x="520" y="200" font-family="Georgia, serif" font-size="14" fill="#FFFFFF">Wills &amp; Estates</text>
+                <text x="730" y="200" text-anchor="end" font-family="sans-serif" font-size="11" fill="#8DBDAE">→</text>
+                <line x1="520" y1="218" x2="740" y2="218" stroke="#243A50"/>
+                <text x="520" y="240" font-family="Georgia, serif" font-size="14" fill="#FFFFFF">Family Mediation</text>
+                <text x="730" y="240" text-anchor="end" font-family="sans-serif" font-size="11" fill="#8DBDAE">→</text>
+                <line x1="520" y1="258" x2="740" y2="258" stroke="#243A50"/>
+                <text x="520" y="280" font-family="Georgia, serif" font-size="14" fill="#FFFFFF">Real Estate</text>
+                <text x="730" y="280" text-anchor="end" font-family="sans-serif" font-size="11" fill="#8DBDAE">→</text>
+                <line x1="520" y1="298" x2="740" y2="298" stroke="#243A50"/>
+                <text x="520" y="320" font-family="Georgia, serif" font-size="14" fill="#FFFFFF">Small Business</text>
+                <text x="730" y="320" text-anchor="end" font-family="sans-serif" font-size="11" fill="#8DBDAE">→</text>
+                <rect y="420" width="800" height="80" fill="#101F2E"/>
+                <text x="40" y="450" font-family="sans-serif" font-size="10" fill="#94A8B9">Office in Lakefield · Serving the Kawarthas</text>
+                <text x="40" y="470" font-family="sans-serif" font-size="10" fill="#5C7388">© 2026 Wexler Law Professional Corporation</text>
+              </svg>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Concept · Professional Services</span>
+              <h3>Wexler Law</h3>
+              <p>Dark, premium aesthetic for a service where trust is everything. Practice areas pulled forward, single clear CTA, designed to feel calm and competent — not corporate.</p>
+            </div>
+          </article>
+
+          <!-- Mockup 4: Health / wellness -->
+          <article class="work-card reveal" data-delay="3">
+            <div class="work-canvas">
+              <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" aria-label="Example homepage for a wellness clinic">
+                <rect width="800" height="500" fill="#FFFFFF"/>
+                <rect width="800" height="60" fill="#FFFFFF"/>
+                <circle cx="46" cy="30" r="10" fill="#6BA292"/>
+                <text x="68" y="35" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#0B1620">Hearth Clinic</text>
+                <rect x="640" y="18" width="120" height="26" rx="13" fill="#6BA292"/>
+                <text x="700" y="35" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Book Online →</text>
+                <rect y="60" width="800" height="240" fill="#EAF2EE"/>
+                <text x="40" y="130" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#3B6B5C">REGISTERED MASSAGE THERAPY</text>
+                <text x="40" y="184" font-family="Georgia, serif" font-size="38" font-weight="500" fill="#0B1620">Care that meets</text>
+                <text x="40" y="228" font-family="Georgia, serif" font-size="38" font-style="italic" font-weight="500" fill="#3B6B5C">you where you are.</text>
+                <text x="40" y="258" font-family="sans-serif" font-size="12" fill="#4B5C6E">Direct billing to most insurers. Evening &amp;</text>
+                <text x="40" y="274" font-family="sans-serif" font-size="12" fill="#4B5C6E">weekend appointments available.</text>
+                <rect x="500" y="90" width="260" height="190" rx="130" fill="#6BA292"/>
+                <circle cx="630" cy="185" r="50" fill="#8DBDAE"/>
+                <circle cx="630" cy="185" r="30" fill="#FFFFFF" opacity="0.4"/>
+                <rect y="300" width="800" height="200" fill="#FFFFFF"/>
+                <text x="40" y="340" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#3B6B5C">SERVICES</text>
+                <rect x="40" y="356" width="220" height="120" rx="10" fill="#F6F3EC"/>
+                <rect x="60" y="376" width="30" height="30" rx="8" fill="#6BA292"/>
+                <text x="60" y="424" font-family="Georgia, serif" font-size="14" font-weight="600" fill="#0B1620">RMT Massage</text>
+                <text x="60" y="444" font-family="sans-serif" font-size="10" fill="#4B5C6E">60 min · From $110</text>
+                <text x="60" y="460" font-family="sans-serif" font-size="10" fill="#3B6B5C">Direct-bill available →</text>
+                <rect x="290" y="356" width="220" height="120" rx="10" fill="#F6F3EC"/>
+                <rect x="310" y="376" width="30" height="30" rx="8" fill="#6BA292"/>
+                <text x="310" y="424" font-family="Georgia, serif" font-size="14" font-weight="600" fill="#0B1620">Acupuncture</text>
+                <text x="310" y="444" font-family="sans-serif" font-size="10" fill="#4B5C6E">60 min · From $95</text>
+                <text x="310" y="460" font-family="sans-serif" font-size="10" fill="#3B6B5C">New patients welcome →</text>
+                <rect x="540" y="356" width="220" height="120" rx="10" fill="#F6F3EC"/>
+                <rect x="560" y="376" width="30" height="30" rx="8" fill="#6BA292"/>
+                <text x="560" y="424" font-family="Georgia, serif" font-size="14" font-weight="600" fill="#0B1620">Physiotherapy</text>
+                <text x="560" y="444" font-family="sans-serif" font-size="10" fill="#4B5C6E">45 min · From $120</text>
+                <text x="560" y="460" font-family="sans-serif" font-size="10" fill="#3B6B5C">Book consultation →</text>
+              </svg>
+            </div>
+            <div class="work-body">
+              <span class="work-tag">Concept · Wellness / Clinic</span>
+              <h3>Hearth Clinic</h3>
+              <p>Calm, accessible site for a health practice — booking flow front and centre, services priced honestly, designed so first-time visitors feel like they already know what to expect.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="work-note">
+          Honest note: Omanyi.Media is an early-stage shop. The work above shows the kind of sites we build — case studies from real clients will replace these as we publish them.
+        </p>
+      </div>
+    </section>
+
+    <!-- ─────────── FAQ ─────────── -->
+    <section class="section">
+      <div class="wrap">
+        <div class="faq-layout">
+          <aside class="faq-aside reveal">
+            <span class="eyebrow">Frequently asked</span>
+            <h2 style="margin-top:1rem;">Questions we hear a lot.</h2>
+            <p style="margin-top: 1.25rem;">Can't find what you're looking for? The free strategy call is the fastest way to a real answer about <em>your</em> business.</p>
+            <div style="margin-top: 2rem;">
+              <a href="contact.html#book" class="btn btn-primary">Book a Free Call <span class="arrow">→</span></a>
+            </div>
+          </aside>
+
+          <div class="faq-list">
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How much does a website actually cost?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  It depends on the scope, but most small-business sites we build land between $1,500 and $4,500 CAD as a one-time fee. We'll quote you a fixed price on the strategy call — no surprises later. There's no monthly retainer required.
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>How long does the whole process take?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Most projects go from kickoff call to live site in 3 to 6 weeks. The biggest variable is how quickly you can get us your content (photos, copy, business info). We'll give you a realistic timeline on the strategy call.
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>You're early-stage — why should I trust you over an established agency?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Honest answer: because we have something to prove. You'll get the founder's direct attention, faster turnaround, and pricing that bigger agencies can't match. We'd rather under-promise and over-deliver than be one more invoice in your inbox.
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>Will I be able to update the site myself afterwards?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  Yes. We build sites with simple editing in mind so you can update text, swap photos, and add posts without calling us. We also include a 30-minute training session at handoff so you're never stuck.
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>What about hosting, domains, and email?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  We help you set up hosting and your domain at cost (you own everything, in your name). Most clients pay $10–$25/month for hosting directly to the provider — no markup from us. Email setup is included in the project.
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-q" aria-expanded="false">
+                <span>What happens on the free strategy call?</span>
+                <span class="toggle" aria-hidden="true"></span>
+              </button>
+              <div class="faq-a">
+                <div class="faq-a-inner">
+                  30 minutes, video or phone, your choice. You tell us about your business and what you wish your site was doing. We point out at least three things you could fix yourself today — even if you never hire us. If we're a good fit, we'll send you a written quote within 48 hours.
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── FINAL CTA ─────────── -->
+    <section class="cta-final on-dark section">
+      <div class="wrap">
+        <span class="eyebrow reveal">Ready when you are</span>
+        <h2 class="reveal" data-delay="1">Stop losing leads to a website you secretly know isn't working.</h2>
+        <p class="lede reveal" data-delay="2">
+          The strategy call is free. There's no follow-up sales push. The worst that happens is you leave with three things to fix yourself.
+        </p>
+        <div class="actions reveal" data-delay="3">
+          <a href="contact.html#book" class="btn btn-primary">Book a Free Strategy Call <span class="arrow">→</span></a>
+          <a href="mailto:hello@omanyi.media" class="btn btn-secondary">Or Email Us</a>
+        </div>
+        <p class="cta-meta reveal" data-delay="4">
+          <span class="dot"></span> Typically respond within 1 business day
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─────────── FOOTER ─────────── -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="footer-brand">Omanyi<span>.</span>Media</a>
+          <p class="footer-tag">Conversion-focused websites for small businesses. Remote-first, based in Ontario, Canada.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Site</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Start</div>
+          <ul class="footer-list">
+            <li><a href="contact.html#book">Book a Free Call</a></li>
+            <li><a href="services.html">See What We'd Build</a></li>
+            <li><a href="services.html#how-it-works">How It Works</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-list">
+            <li><a href="mailto:hello@omanyi.media">hello@omanyi.media</a></li>
+            <li>Ontario, Canada</li>
+            <li>Remote-first · Online</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Omanyi.Media — All rights reserved.</span>
+        <span><a href="#main">Back to top ↑</a></span>
       </div>
     </div>
-    <div class="floating-badge badge-1">📈 +312% More Inquiries</div>
-  </div>
-</section>
- 
-<!-- VALUE PROPOSITIONS -->
-<section class="section">
-  <div class="section-label">Why Omanyi Media</div>
-  <h2 class="section-title">Built for Small Business.<br>Not Corporate Budgets.</h2>
-  <div class="vp-grid">
-    <div class="vp-card">
-      <div class="vp-icon">🎯</div>
-      <div class="vp-title">Small Business Focus</div>
-      <p class="vp-desc">We exclusively serve small business owners. No cookie-cutter templates — every project is built around your goals.</p>
-    </div>
-    <div class="vp-card">
-      <div class="vp-icon">⚡</div>
-      <div class="vp-title">Fast Turnaround</div>
-      <p class="vp-desc">Most websites delivered in 3–4 weeks. Video productions in 10–14 business days. We respect your time.</p>
-    </div>
-    <div class="vp-card">
-      <div class="vp-icon">💰</div>
-      <div class="vp-title">Transparent Pricing</div>
-      <p class="vp-desc">Flat-fee packages. No hidden costs, no surprise invoices. You always know exactly what you are paying for.</p>
-    </div>
-    <div class="vp-card">
-      <div class="vp-icon">📊</div>
-      <div class="vp-title">Results-Driven</div>
-      <p class="vp-desc">Every deliverable is measured against one standard: does it help your business grow? If not, we do it differently.</p>
-    </div>
-  </div>
-</section>
- 
-<!-- SERVICES PREVIEW -->
-<section class="section section-alt">
-  <div class="section-label">What We Do</div>
-  <h2 class="section-title">Two Services.<br>One Goal: Your Growth.</h2>
-  <div class="svc-grid">
-    <div class="svc-card teal">
-      <div class="svc-num">01</div>
-      <div class="svc-icon">🌐</div>
-      <div class="svc-name">Website Building</div>
-      <p class="svc-desc">Custom, mobile-first websites designed to rank on Google, convert visitors into customers, and represent your brand with confidence.</p>
-      <a href="services.html" class="svc-link">Explore Website Packages →</a>
-    </div>
-    <div class="svc-card light">
-      <div class="svc-num">02</div>
-      <div class="svc-icon">🎬</div>
-      <div class="svc-name">Video Production</div>
-      <p class="svc-desc">Brand videos, testimonials, product demos, and social media reels — professionally produced content that tells your story and builds trust.</p>
-      <a href="services.html" class="svc-link">Explore Video Packages →</a>
-    </div>
-  </div>
-</section>
- 
-<!-- TESTIMONIALS -->
-<section class="section">
-  <div class="section-label">Client Stories</div>
-  <h2 class="section-title">Real Results for<br>Real Small Businesses.</h2>
-  <div class="testi-grid">
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <p class="testi-text">"Omanyi Media built us a website that tripled our online inquiries within two months. Absolutely worth every dollar. They understood our business immediately."</p>
-      <div class="testi-name">Sarah T.</div>
-      <div class="testi-role">Owner — Bloom Florals, Hamilton ON</div>
-    </div>
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <p class="testi-text">"The brand video they produced has become our best sales tool. Professional, on-brand, and delivered on time. Our new clients mention it constantly."</p>
-      <div class="testi-name">Marcus D.</div>
-      <div class="testi-role">Founder — DeltaFit Training, Mississauga ON</div>
-    </div>
-    <div class="testi-card">
-      <div class="testi-stars">★★★★★</div>
-      <p class="testi-text">"Finally a web agency that speaks plain English. No jargon, no pressure — just a beautiful site and a team that actually cares whether it works for us."</p>
-      <div class="testi-name">Lena M.</div>
-      <div class="testi-role">Owner — Lena's Kitchen Catering, Toronto ON</div>
-    </div>
-  </div>
-</section>
- 
-<!-- CTA BAND -->
-<section class="cta-band">
-  <h2>Your Business Deserves a Better Online Presence.</h2>
-  <p>Book a free 30-minute strategy session. No commitment, no sales pressure — just an honest conversation about what digital media can do for your business.</p>
-  <a href="landing.html" class="btn-white">Claim My Free Consultation →</a>
-</section>
- 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-grid">
-    <div>
-      <a href="index.html" class="footer-logo">Omanyi<span>.</span>Media</a>
-      <p class="footer-tagline">Professional websites and video content for small businesses across Canada and the United States.</p>
-      <div class="social-row">
-        <div class="social-btn" title="Facebook">f</div>
-        <div class="social-btn" title="Instagram">in</div>
-        <div class="social-btn" title="LinkedIn">li</div>
-        <div class="social-btn" title="YouTube">▶</div>
-        <div class="social-btn" title="X">𝕏</div>
-      </div>
-    </div>
-    <div>
-      <div class="footer-col-title">Company</div>
-      <ul class="footer-links">
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Services</div>
-      <ul class="footer-links">
-        <li><a href="services.html">Website Building</a></li>
-        <li><a href="services.html">Video Production</a></li>
-        <li><a href="landing.html">Free Consultation</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Contact</div>
-      <ul class="footer-links">
-        <li><a href="mailto:hello@omanyi.media">hello@omanyi.media</a></li>
-        <li><a href="tel:+14165550192">+1 (416) 555-0192</a></li>
-        <li><a href="#">200 Wellington St W, Toronto, ON</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 Omanyi Media. All rights reserved.</span>
-    <span>Toronto, Ontario · Canada</span>
-  </div>
-</footer>
- 
-<div class="disclaimer-bar">
-  The information provided on this website is intended for educational purposes only. While every effort has been made to ensure the accuracy and reliability of the content, the university does not guarantee its completeness or effectiveness. This website will be deactivated once the course is completed. Some images used on this site have been sourced from the internet and are included for educational and practice purposes only. If you are the copyright owner of any image and believe it has been used without proper attribution, please contact us, and we will make the necessary corrections. The views expressed on this site do not necessarily reflect the official policies or positions of the university. The university is not responsible for any errors or omissions or the results obtained from using this information. By using this website, you acknowledge and agree to these terms.
-</div>
- 
-<script src="js/main.js"></script>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
